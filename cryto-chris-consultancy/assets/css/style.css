@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Exo:100,200,300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gotu&display=swap');
+
+/*------------------------------------------------Heading */
+
+header {
+    margin: 0;
+}
+
+.logo {
+    background: url("../images/Logo2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 250px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all 5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.company-motto {
+    font-family: "Gotu", sans-serif;
+    font-weight: 80;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 100px;
+    color: rgb(95, 86, 86);
+}
+
+.list-inline-image {
+    height: 100px;
+}
