@@ -1,10 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Exo:100,200,300,400,500,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Gotu&display=swap');
 
+/*------------------------------------------------Colours */
+
+.ui-menu-color-home {
+    background-color: #4b9ee2b2;
+}
+
+.ui-menu-color-services {
+    background-color: #5f5663d0;
+}
+
+.ui-menu-color-contact {
+    background-color: #4b9ee2b2;
+}
+
+.ui-menu-color-about {
+    background-color: #5f5663d0;
+}
+
+.bg-color-work-history {
+    background-color: #9b59b6;
+}
+
+.bg-color-contact {
+    background-color: #fff;
+}
+
+
 /*------------------------------------------------Heading */
 
 header {
     margin: 0;
+    background-color: rgba(182, 181, 174, 0.068);
 }
 
 .logo {
@@ -22,11 +50,63 @@ header {
     font-family: "Gotu", sans-serif;
     font-weight: 80;
     font-size: 40px;
-    margin-top: 20px;
+    margin-top: 100px;
     margin-left: 100px;
-    color: rgb(95, 86, 86);
+    color: #5f5663d0;
 }
 
-.list-inline-image {
-    height: 100px;
+.list-inline-item:not(:last-child) {
+    margin: 0;
 }
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+#nav {
+    margin: 0;
+}
+
+/*------------------------------------------------Hover.css */
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
+
