@@ -149,12 +149,42 @@ footer {
     background-color: #5f5663d0;
     color:#fafafa;
     min-height: 120px;
+    font-family: "Gotu", sans-serif;
 }
 
 .general-sub {
     text-align: center;
-    margin-top: 25px;
+    margin-top: 10px;
 }
+
+.three-footer-columns span {
+    font-size: 30px;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #4b9ee2b2;
+}
+
 
 /*------------------------------------------------Media Queries*/
 
@@ -196,6 +226,12 @@ footer {
 @media(min-width: 992px) {
     .general-sub {
         text-align: left;
+    }
+}
+
+@media(min-width: 720px) {
+    .form-control {
+        margin-left: 20px;
     }
 }
 
