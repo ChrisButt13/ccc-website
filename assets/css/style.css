@@ -1,147 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Exo:100,200,300,400,500,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Gotu&display=swap');
 
-
-/*------------------------------------------------Colours */
-
-.ui-menu-color-home {
-    background-color: #4b9ee2b2;
-}
-
-.ui-menu-color-services {
-    background-color: #5f5663d0;
-}
-
-.ui-menu-color-contact {
-    background-color: #4b9ee2b2;
-}
-
-.ui-menu-color-about {
-    background-color: #5f5663d0;
-}
-
-.bg-color-contact {
-    background-color: #fff;
-}
-
 /*------------------------------------------------General */
 
-.uppercase {
-    text-transform: uppercase;
-}
-
-.inline-block {
-    display: inline-block;
-}
-/*------------------------------------------------Heading */
-
-header {
+body {
     margin: 0;
-    background-color: rgba(182, 181, 174, 0.068);
-}
-
-.logo {
-    background: url("../images/Logo2.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 250px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all 5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-
-.company-motto {
-    font-family: "Gotu", sans-serif;
-    font-weight: 200;
-    font-size: 15px;
-    margin-top: -50px;
-    text-align: center;
-    color: #353236d0;
-}
-
-.list-inline-item:not(:last-child) {
-    margin: 0;
-}
-
-.menucontainer {
-    font-size: 0;
-}
-
-#nav li {
-    font-size: 14px;
     padding: 0;
+    font-family: sans-serif;
 }
 
-.menuitem {
-    height: 120px;
-    text-align: center;
-    padding: 0;
+/*------------------------------------------------Section */
+
+.background-logo {
+    max-height: 1000px;
 }
 
-.menuitem a {
-    width: 100%;
-    text-decoration: none;
-    color: #fff;
-    height: 120px;
+
+/*------------------------------------------------Navbar */
+
+.navbar-text {
+    font-size: 20px;
 }
-
-.menuitem a i {
-    padding-top: 22px;
-    display: block;
-    color: #fafafa;
-    font-size: 26px;
-}
-
-.menuitem span {
-    display: block;
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
-}
-
-#nav {
-    margin: 0;
-}
-
-/*------------------------------------------------Section Image */
-
-img {
-    max-width: 300px;
-    max-height: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-}
-
-.section-heading h2 {
-    font-family: "Gotu", sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    text-align: center;
-    margin-top: 20px;
-    color: #353236d0;
-}
-
-.section-heading p {
-    font-family: "Gotu", sans-serif;
-    font-size: 12px;
-    font-weight: 200;
-    text-align: center;
-}
-
-/*------------------------------------------------Hover.css */
-
-.hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.2);
-    height: 120px;
-}
-
 /*------------------------------------------------Footer*/
 
 footer {
@@ -149,12 +28,13 @@ footer {
     background-color: #5f5663d0;
     color:#fafafa;
     min-height: 120px;
-    font-family: "Gotu", sans-serif;
+    font-family: sans-serif;
 }
 
 .general-sub {
     text-align: center;
     margin-top: 10px;
+    text-transform: uppercase;
 }
 
 .social-links {
@@ -178,57 +58,15 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #4b9ee2b2;
+    background: #8ebadfe0;
 }
 
 
 /*------------------------------------------------Media Queries*/
 
 @media(min-width: 992px) {
-    .company-motto {
-        font-size: 40px;
-        margin-top: 100px;
-    }
-}
-
-@media(min-width: 992px) {
-    img {
-        max-height: 1000px;
-        float: left;
-    }
-}
-
-@media(min-width: 992px) {
-    .section-heading h2 {
-        font-family: "Gotu", sans-serif;
-        font-weight: 200;
-        font-size: 30px;
-        text-align: center;
-        margin-top: 20px;
-        color: #353236d0;
-    }
-}
-
-@media(min-width: 992px) {
-    .section-heading p {
-        font-family: "Gotu", sans-serif;
-        font-weight: 200;
-        font-size: 20px;
-        text-align: center;
-        color: #353236d0;
-    }
-}
-
-@media(min-width: 992px) {
     .general-sub {
         text-align: left;
-    }
-}
-
-@media(min-width: 576px) and (max-width: 768px) {
-    .company-motto {
-        font-size: 30px;
-        margin-top: 100px;
     }
 }
 
