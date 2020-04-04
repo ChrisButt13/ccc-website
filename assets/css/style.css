@@ -15,13 +15,13 @@ body {
     font-size: 20px;
 }
 
-/*------------------------------------------------Section */
+/*------------------------------------------------Jumbotron */
 .profile-pic {
     max-height: 200px;
     float: left;
 }
 
-.section-heading {
+.jumbotron-text {
     margin-top: 30px;
     margin-bottom: 50px;
     color: rgba(107, 113, 121, 0.884)
@@ -32,18 +32,27 @@ body {
     margin-top: 40px;
 }
 
-.skills-list-item {
-   color: red;
-   background: blue;
-   margin: auto;
+/*------------------------------------------------Skills*/
+
+.sub-images {
+    height: 250px;
+    width: 250px
+}
+
+.skills-heading-text {
+    color: rgba(107, 113, 121, 0.884)
+}
+
+.skill-info-text {
+    
 }
 
 /*------------------------------------------------Footer*/
 
 footer {
-    background-color: #5f5663d0;
+    background-color: #a3a8b8b7;
     color:#fafafa;
-    min-height: 120px;
+    min-height: 150px;
     font-family: sans-serif;
 }
 
