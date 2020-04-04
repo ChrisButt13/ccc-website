@@ -9,22 +9,38 @@ body {
     font-family: sans-serif;
 }
 
-/*------------------------------------------------Section */
-
-.background-logo {
-    max-height: 1000px;
-}
-
-
 /*------------------------------------------------Navbar */
 
 .navbar-text {
     font-size: 20px;
 }
+
+/*------------------------------------------------Section */
+.profile-pic {
+    max-height: 200px;
+    float: left;
+}
+
+.section-heading {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: rgba(107, 113, 121, 0.884)
+}
+
+.special-heading {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.skills-list-item {
+   color: red;
+   background: blue;
+   margin: auto;
+}
+
 /*------------------------------------------------Footer*/
 
 footer {
-    margin-top: 30px;
     background-color: #5f5663d0;
     color:#fafafa;
     min-height: 120px;
@@ -67,6 +83,14 @@ footer {
 @media(min-width: 992px) {
     .general-sub {
         text-align: left;
+    }
+}
+
+@media(max-width: 768px) {
+    .profile-pic {
+        display: block;
+        margin: 30px auto 0px auto;
+        float: none;
     }
 }
 
