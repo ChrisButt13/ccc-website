@@ -30,21 +30,20 @@ body {
 .special-heading {
     text-align: center;
     margin-top: 40px;
+    box-sizing: border-box;
 }
 
-/*------------------------------------------------Skills*/
+/*------------------------------------------------Four Skills Headings*/
 
 .sub-images {
-    height: 250px;
-    width: 250px
+    height: 230px;
+    width: 230px;
 }
 
-.skills-heading-text {
-    color: rgba(107, 113, 121, 0.884)
-}
-
-.skill-info-text {
-    
+.four-skill-headings {
+    color: rgba(107, 113, 121, 0.884);
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /*------------------------------------------------Footer*/
@@ -102,5 +101,19 @@ footer {
         float: none;
     }
 }
+
+@media(max-width: 768px) {
+    .four-skill-headings {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media(max-width: 768px) {
+    .three-footer-columns {
+        display: block;
+    }
+}
+
 
 
