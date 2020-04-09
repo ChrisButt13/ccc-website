@@ -86,7 +86,28 @@ footer {
     background: #8ebadfe0;
 }
 
+/*------------------------------------------------Contact Form*/
 
+.contact-heading {
+    font-family: sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: rgba(107, 113, 121, 0.884);
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #8ebadfe0;
+}
 /*------------------------------------------------Media Queries*/
 
 @media(min-width: 992px) {
