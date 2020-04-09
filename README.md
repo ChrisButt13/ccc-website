@@ -1,35 +1,19 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Milestone Project 1
+This is my first milestone project, CCC Crypto Chris Consultancy.
+This website is designed to offer my services as a local crypto consultant
+to local individuals and business. I decided to create this website as i 
+have a passion for crypto currencies and could potentially use this site in the future.
 
-Welcome ChrisButt13,
+## Technologies
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+- HTML
+- CSS
+- Bootstrap 4
 
-## Gitpod Reminders
+## Sources
+I used Google to source the images and help with some ideas of layout etc.
+All of the code is my own apart from the Bootstap navbar which i modified slightly to suit.
+I also took some inspiration from the codeinstitute resume project.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+## Link to completed website:
+{Crypto Chris Consultancy} (https://chrisbutt13.github.io/ccc-website/)
