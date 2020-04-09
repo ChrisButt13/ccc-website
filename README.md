@@ -1,7 +1,7 @@
 # Milestone Project 1
 This is my first milestone project, CCC Crypto Chris Consultancy.
 This website is designed to offer my services as a local crypto consultant
-to local individuals and business. I decided to create this website as i 
+to individuals and business. I decided to create this website as i 
 have a passion for crypto currencies and could potentially use this site in the future.
 
 ## Technologies
