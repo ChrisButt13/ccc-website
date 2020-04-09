@@ -108,6 +108,13 @@ button[type="submit"] {
     color: #fafafa;
     background-color: #8ebadfe0;
 }
+
+/*------------------------------------------------About Content*/
+
+.five-about-columns {
+    display: inline;
+}
+
 /*------------------------------------------------Media Queries*/
 
 @media(min-width: 992px) {
