@@ -7,6 +7,10 @@ have a passion for crypto currencies and could potentially use this site in the 
 
 ## UX
 
+This website was designed for individuals or companies looking for information on how to get started in crypto currencies.
+Whether they want to utilise the blockchain in their business or how to start investing or mining. The website includes information about the company and what services are on offer.
+The wireframe for the project can be found in folder crypto-chris-consultancy.
+
 
 ## Technologies
 
