@@ -25,3 +25,7 @@ I also took some inspiration from the codeinstitute resume project.
 
 ## Link to completed website:
 {Crypto Chris Consultancy} (https://chrisbutt13.github.io/ccc-website/)
+
+## Code formatting issue
+This is a note to the assessor of my project. My code on Github doesn't appear to be formatted correctly. If you view my code on Gitpod i have beautified the code but when i push it to 
+Github it changes the formatting. I was thinking of pushing the code to Github locally using VScode but tutor support said it can be quite challenging to set up and advised i left a message in README.
